@@ -1,0 +1,39 @@
+.video-wrapper{
+    overflow: hidden;
+
+}
+
+.video-desc{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: b;
+    font-size: 0.5vw;
+
+}
+
+.video-texts{
+    position: relative;
+    letter-spacing: -0.5px;
+    width: 100%;
+
+}
+
+.video-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    filter: invert(56%) sepia(0%) saturate(38%) hue-rotate(182deg) brightness(98%) contrast(95%);
+
+}
+
+.video {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width:480px) {
+    .video-desc{
+        font-size: 11px;
+    }
+}

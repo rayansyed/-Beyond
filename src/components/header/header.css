@@ -1,0 +1,67 @@
+  .h{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .h-leftside{
+    position: relative;
+      flex: 2;
+      /* text-align: left; */
+      padding-right: 10px;
+      overflow: hidden;
+
+  }
+
+  .h-rightside{
+      flex: 1;
+      text-align: right;
+  }
+
+  .h-beyond{
+    font-family: 'Inter', sans-serif;    
+    font-weight: 600;
+    font-size:  4.7vw;
+    letter-spacing: -0.4vw;
+    color: black;
+    line-height:  1px;
+  }
+
+  .h-icon{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding-top: 25px;
+    
+  
+  }
+
+  .whiteText{
+    color: white;
+  }
+
+  .blackText{
+      color: black;
+  }
+
+  #navDesc{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5vw;
+    line-height: 0.6vw;
+    overflow:hidden;
+    padding-top: 1vw;
+    transition: 0.3s;
+    text-align: left;
+  }
+
+
+  @media screen and (max-width:480px) {
+    .h{
+      display: none;
+    }
+    ul{
+      display: none;
+    }
+  }

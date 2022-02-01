@@ -1,0 +1,30 @@
+.footer-container{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow: hidden;
+}
+
+.footer-logo{
+    filter: invert(89%) sepia(0%) saturate(4500%) hue-rotate(133deg) brightness(106%) contrast(94%);
+
+}
+.footer-text{
+    text-align: right;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5vw;
+    line-height: 0.6vw;
+    top: 1vw;
+    right: 0px;
+}
+
+@media screen and (max-width:480px){
+    .footer-container{
+        display: none;
+    }
+}

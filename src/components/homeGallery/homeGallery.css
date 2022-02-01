@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  box-sizing: border-box;
+  margin-left: 23.7%;
+  margin-right: 23.7%;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.5vw;
+
+}
+
+  .k-container{
+    margin-top: 80vh;
+  }
+
+  .quote{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 0.6vw;
+    padding: 3vw !important;
+
+  }
+  
+  .flex-item {
+    width: 50%;
+    flex-grow: 0;
+    padding: 1vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .flex-banner{
+    width: 100%;
+    flex-grow: 0;
+    box-sizing: border-box;
+    padding: 1vw;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .flex-center{
+    width: 50%;
+    flex-grow: 0;
+    box-sizing: border-box;
+    padding: 1vw;
+    justify-content: space-between;
+    overflow: hidden;
+
+  }
+
+  .flex-margin {
+    width: 25%;
+    flex-grow: 0;
+    box-sizing: border-box;
+    padding: 1vw;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+
+
+  @media screen and (max-width:480px) {
+    .container{
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+
+    .flex-banner{
+      padding: 10px;
+    }
+
+    .flex-item{
+      width: 100%;
+      padding: 10px;
+    }
+
+    .flex-center{
+      width: 100%;
+      padding: 10px;
+    }
+
+    .flex-margin{
+      display: none;
+      padding: 10px;
+    }
+
+  }
+
+
+  /* @media screen and (min-width: 160em) {
+
+        .k-container {
+            margin-top: 950px;
+        }
+    } */
