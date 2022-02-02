@@ -24,9 +24,9 @@
 .blackText{
     color: black;
 }
-.by-dropdown{
+/* .by-dropdown{
     display: none;
-}
+} */
 
 @media screen and (max-width:480px) {
     .by-title{
@@ -44,7 +44,7 @@
         padding-left: 10px;
     }
 
-    .by-dropdown{
+    /* .by-dropdown{
         display: inline;
         font-family: 'Inter', sans-serif;  
         font-weight: 700;
@@ -54,5 +54,5 @@
         line-height: 1px;
         color: black;
         
-    }
+    } */
 }

@@ -1,0 +1,131 @@
+.mobile-nav-menu-dark{
+    display: none;
+}
+.mobile-nav-menu-light{
+    display: none;
+}
+
+
+.mobile-menu-mask{
+    display: none;
+}
+
+
+
+.mobile-nav-icon-light{
+    display: none;
+
+}
+
+.mobile-nav-icon-dark{
+    display: none;
+
+}
+
+
+@media screen and (max-width:480px) {
+    .mobile-nav-title-dark{
+        display: inline;
+        font-family: 'Inter', sans-serif;    
+        font-weight: 600;
+        font-size:  8.7vw;
+        letter-spacing: -0.4vw;
+        color: rgb(255, 255, 255);
+        line-height:  1px;
+        padding-bottom: 10px;
+        
+    }
+
+    .mobile-nav-title-light{
+        display: inline;
+        font-family: 'Inter', sans-serif;    
+        font-weight: 600;
+        font-size:  8.7vw;
+        letter-spacing: -0.4vw;
+        color: rgb(0, 0, 0);
+        line-height:  1px;
+        padding-bottom: 10px;
+        
+    }
+
+    .mobile-nav-menu-dark{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        padding: 15px;
+        top: 0px;
+        left: 0px;
+        background-color: black;
+        width: 80%;
+        height: 100%;
+        transition: 0.3s;
+        filter: drop-shadow(0 0 0.75rem rgba(26, 26, 26, 0.466));
+        z-index: 50;
+    }
+
+    .mobile-nav-menu-light{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        padding: 15px;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        height: 100%;
+        transition: 0.3s;
+        filter: drop-shadow(0 0 0.75rem rgba(26, 26, 26, 0.466));
+        z-index: 50;
+    }
+
+    /* .mobile-nav-icon-dark{
+        align-items: center;
+        padding-bottom: 20px;
+    } */
+
+    .mobile-nav-icon-light{
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .mobile-nav-desc-dark{
+        font-family: 'Roboto Mono', monospace;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+        font-size: 8px;
+        text-align: left;
+    }
+
+    .mobile-nav-desc-light{
+        font-family: 'Roboto Mono', monospace;
+        font-style: normal;
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+        font-size: 8px;
+        text-align: left;
+    }
+    
+    .mobile-menu-mask{
+        display: inline;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+    }
+    
+    .mobile-nav-icon-dark{
+        display: inline;
+        color: white;
+        padding-right: 30px;
+    }
+
+    .mobile-nav-icon-light{
+        display: inline;
+        color: rgb(0, 0, 0);
+        padding-right: 30px;
+    }
+}

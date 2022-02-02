@@ -5,7 +5,7 @@ export const navIconInfo = [
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "9.5%",
         height: "100%",
-        desc: "syntax",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
     {
         id: "bullet",
@@ -13,7 +13,7 @@ export const navIconInfo = [
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "7%",
         height: "100%",
-        desc: "rdr2",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
     {
         id: "yakuza",
@@ -29,7 +29,7 @@ export const navIconInfo = [
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "5%",
         height: "38",
-        desc: "loss",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
     {
 
@@ -38,7 +38,7 @@ export const navIconInfo = [
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "12%",
         height: "38",
-        desc: "tsushima",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
     {
         id: "cyberpunk",
@@ -46,7 +46,7 @@ export const navIconInfo = [
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "16%",
         height: "38",
-        desc: "77",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
     {
         id: "bridges",
@@ -54,7 +54,7 @@ export const navIconInfo = [
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "9%",
         height: "38",
-        desc: "bridges",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
     {
         id: "kingdom",
@@ -62,7 +62,7 @@ export const navIconInfo = [
         link: "/kingdom",
         width: "22%",
         height: "60",
-        desc: "kingdom",
+        desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. <br><br>➥ CYBERPUNK 77 by CD Projekt RED",
     },
 
 ]
