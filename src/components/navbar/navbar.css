@@ -60,3 +60,10 @@
     }
   }
 
+  @media screen and (max-width:768px) and (min-width: 480px) {
+    .nav-wrapper{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+

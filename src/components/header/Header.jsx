@@ -17,7 +17,7 @@ function Header() {
                 <p className={changeDescColor()} id="navDesc"></p>
             </div>
             <div className="h-rightside">
-                <h1 className='h-beyond'>&Beyond</h1>
+                <a href='/'><h1 className='h-beyond'>&Beyond</h1></a>
             </div>
         </div>
     );

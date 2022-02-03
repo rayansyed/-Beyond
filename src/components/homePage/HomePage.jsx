@@ -11,7 +11,6 @@ function HomePage() {
     <div className="Home">
       <Header/>
       <HomeGallery/>
-      <Footer/>
     </div>
   );
 }

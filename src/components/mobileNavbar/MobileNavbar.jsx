@@ -27,7 +27,7 @@ const MobileNavbar=({theme}) => {
   if(showMenu) {
       menu = 
       <div className={'mobile-nav-menu-'+navtheme}>
-          <h1 className={"mobile-nav-title-"+navtheme}>&Beyond</h1>
+          <a href='/'><h1 className={"mobile-nav-title-"+navtheme}>&Beyond</h1></a>
             {navIconInfo.map((item) =>(
                 
                 <div className={'mobile-nav-icon-'+navtheme}>

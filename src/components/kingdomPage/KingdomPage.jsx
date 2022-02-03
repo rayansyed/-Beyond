@@ -14,7 +14,6 @@ function KingdomPage() {
       <Wallpaper/>
       <KingdomHeader/>
       <KingdomGallery/>
-      <Footer/>
       
     </div>
   );

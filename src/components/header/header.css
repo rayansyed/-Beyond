@@ -4,6 +4,10 @@
     margin-right: 25%;
   }
 
+  a{
+    text-decoration: none;
+  }
+
   .h-leftside{
     position: relative;
       flex: 2;
@@ -56,6 +60,8 @@
     text-align: left;
   }
 
+  
+
 
   @media screen and (max-width:480px) {
     .h{
@@ -63,5 +69,12 @@
     }
     ul{
       display: none;
+    }
+  }
+
+  @media screen and (max-width:768px) and (min-width: 480px) {
+    .h{
+      margin-left: 16.5%;
+      margin-right: 16.5%;
     }
   }

@@ -1,7 +1,17 @@
+import cyberpunkLogo from './logos/77.svg'
+import kamurochuLogo from './logos/kamurouchu.svg'
+import bulletLogo from './logos/Bullet.svg'
+import bridgesLogo from './logos/Bridges.svg'
+import kingdomLogo from './logos/Kingdom.svg'
+import lossLogo from './logos/LOSS.svg'
+import syntaxLogo from './logos/Syntax.svg'
+import tsushimaLogo from './logos/tsushima.svg'
+
+
 export const navIconInfo = [
     {
         id: "syntax",
-        img: "https://previews.dropbox.com/p/thumb/ABYinPp3evnhGKfLvV1mtF7WRmjyLX73yGRB229IOsb4G56jnFpH6q9YKtBxINEOzijsjGDW7defpnWtZCVM6PctHxg1zLr3DmVV0HjXyQ06Vfs6uPAcfhohO9lseA3ispMYZbetBCe2U759LS8kSnprD9WDs_oqDgyPrDAf3-NHE3_Bg9JWGYUXtUpGKqlGWi_UTnwcX6_avSqnYjNcQrPkv7Ph5udBj3W8pCiDuQKDkOKC4uWLoTSnD8pPxjFv8uh3LEorI0d1dDhYjugta9kSW8tmJu-UFwrrrYwT7gNWPuupf1HjFCMbbhO_lvtWFxQYSqvQhSeWp0LxgFCkuRm85OEJXLGkgU1kLxrJKCS8ZA/p.png",
+        img: syntaxLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "9.5%",
         height: "100%",
@@ -9,7 +19,7 @@ export const navIconInfo = [
     },
     {
         id: "bullet",
-        img: "https://previews.dropbox.com/p/thumb/ABZfSlI6gL35T82XpGzBpXHs-ka88AyC7QOp9ZkpJpHDvCJgNYLTI-ljQd65ad6lBbMoxeEPcNzgPe1PrQuZaPVs6T-0B56JXLti09WvEaeab8TkrjOlhazQLpT3A9UTsglW0AplQl_h8YdOec5DTO7_B_6T6aAMj8NevUiDDzRdYW5jrw2Yu4KlE_fNa6lvcC_MjVwAXP-k6sNtAdp1l5rs8wx7Bt-_4mxzB9nY21FUyaniNV4lBqqb-bU1o6ZFkPZ1rucBl2R3u0N2ibeJ-SnMxQIc9GBpCjwGRVyszEa2bKKantq32vK77pihoXJuNHpILYUTywcqAEI6to0IARdl_IVAORf7m8_pH_wNUVDAsg/p.png",
+        img: bulletLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "7%",
         height: "100%",
@@ -17,7 +27,7 @@ export const navIconInfo = [
     },
     {
         id: "yakuza",
-        img: "https://previews.dropbox.com/p/thumb/ABY1FIzXjg6Wk74kOUCovJuR59yM1__LMSg8_hYtbpW9AZCiHpyKqmplBmDNnVoF-lTcZeszIwm1jxCWuozrcBmQuhP_vdzFzD0ejgM6mrAr7ZUV8YS9k7Rat634NasyygQiHXRRWcbgQdaP9zdHlrAcul8rzNVciXQYepPf2LXgWrmtMmSpF0o1BldVpMLNPyxNd6sbRAe-Dg-WW5KoEq03UdKmCCfqnFE2trq9fAdgaGcUfkexhPoIACZo_lRzqwRmg6zGnbCaoRNCu47Vvb5kKS3P_IF_81MxNCB27FKCy-IxPe8s_nXe7Om3Tlo8cjNqRWLP0tmkyjcQES7aCHQwoeQXshpBhUQXV8BYxKWPHw/p.png",
+        img: kamurochuLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "8%",
         height: "100%",
@@ -25,7 +35,7 @@ export const navIconInfo = [
     },
     {
         id: "loss",
-        img: "https://previews.dropbox.com/p/thumb/ABYVF9ri47DT3P-G5b-E7Jft0gsyZdPcnvXlsvqQPZHinyLYMdhVQoIW9KQlpHXAe_kNQar8Lb9F7B33gakmCtovEsVIgWjyeD9o5Usmmf7Kia8Rb1Jfgo4vJkuh7pckCiafp1cfHuzk7SVHD7TqbYJSQZNogpvXTCXRrtHG0lC4C42cd6zerXlOPRq3HWaVDf8mFdLEV6F-66qeIOLCpNiCSKwajh-04ccaXkBa2q8T5m8OkGepC1gy6_3vaWA5EgFE-FxC2E_mba6bzEavoi_vRITEiq6O6MkVEZ5_07Mjl6WCSx6PXnkpbBUe8_Oa1wbC5b4OFYq2Zm3Abv9GU8pgKaTznWAjiTkGCghc6CBr_g/p.png",
+        img: lossLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "5%",
         height: "38",
@@ -34,7 +44,7 @@ export const navIconInfo = [
     {
 
         id: "tsushima",
-        img: "https://previews.dropbox.com/p/thumb/ABakBEhEmtWmapU_m6onyF0IbkwXWxAYSRXsikt4rIBk5T6NrDBq33x9cK-isBtsb3fnRryqCWtRQqaRjp2BGG6w44lKJxkG5RoWj0RRm9RuNCOdS1k_dVA0euzOUjviRqguAQmqjY2Dyn9Q4CvnUa2-raARL80eEOHxvq8qshn_Ys-71Tn7oCzPqBjogddO-SSvI2AvgxnZoNpqfxEEBvqGzhIpwT65CXuKg4BCGt1TS0CaFlEoqx99gKMQkEKvf71qJlcU-aTLRoCBWGR9fijRnYiqG9ZJAxf5vgAAhQA2eZOYpfXZccCO6TDaZamC0xniaB_iCDA0Q-5yK09ZZoiW7BZaEUIIhXS-HERlGcjVhw/p.png",
+        img: tsushimaLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "12%",
         height: "38",
@@ -42,7 +52,7 @@ export const navIconInfo = [
     },
     {
         id: "cyberpunk",
-        img: "https://previews.dropbox.com/p/thumb/ABYjvs1HM8bkzgt_ZX_eYxDjtXV7xOPi1ZJ0D5zsaNwm5o5u7UN12wZbC7-k5jS2hgEZbSqzBq0clufopXj_nHU61gJWKPdvG71YdTa2eIjkGZbCVew76peW9h9FnCMx9ntIHOQzsAPTdwCTyfy_ZNCMYoPZz5V_u6eydEo9PeNdydb-j23dSpjY9ybFUsBjUbUhHHUiYc4rveSBDBtTHKXN23mjJlX0bi5qWfA_GVi-33FE9F3at2J7V_u9UjISnFzJnqhz8AFTNDRnofRu_psQSiBbooDLv_BwP27hA13k_-b5KHAZ1hJzCi5Wj3nVcjB9r5rUABS5bTLIsyR4c-w64K-iE4z6JdmUbSRExcxQBg/p.png",
+        img: cyberpunkLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "16%",
         height: "38",
@@ -50,7 +60,7 @@ export const navIconInfo = [
     },
     {
         id: "bridges",
-        img: "https://previews.dropbox.com/p/thumb/ABZE_tnDJ_9nHEUUH1LUaHosWYtOMNNdneUKv3jHAx4C_Zrs4BKkFsdkmBIQhJ1wEVnoTK2Mu-x_ZRyZ3BLqQDdQk9775_NgroTlZAvzPnV0kyGtJ542PuLvultVaIF834-_uiLirgzHNOovNKi_Jd9oY5KBxSdsMSAeEIS6npIcX_XTDFsMf2KGWwDwnywvMjY4KWRbY0m7oTxSSTiNt6aIfQAPR4zZfBM_KjR_dfqVCiZGymYpfMg8rR49lSrlzlwBkrY91MPf9svFmlWrxudwuBlonDJfY1C17sfA6K1RSB4XZcL2VOVqrB_nI163YCBUYS6pW_jzOD4zXmuzxU0g8ngBt4p36e9eh1bO0paWPQ/p.png",
+        img: bridgesLogo,
         link: "https://bitbucket.org/rayansyed/valu/src/main/",
         width: "9%",
         height: "38",
@@ -58,7 +68,7 @@ export const navIconInfo = [
     },
     {
         id: "kingdom",
-        img: "https://previews.dropbox.com/p/thumb/ABbhrwIIxUHhXXH5wgWRHRYtawxssIiIFGmkDiD5yyLJIFThz1UAyHESntMZfaOSBOQsYnRzeV3AHnJ7QWvBL5F0lC7gXtoijKjybbals7OQpfjAxrcP08wNDzEwb8XG84l3dwXSypKPTcaV448UnbFMZ3ML6mB3CRz5dg4Od5ORDjVoKxRIC-kzlvGaPod08eHLjIPGRVzLG2ej71CIAzJ66fsXx-pbZJdvnGWJoSia_L0C3um6w66QxY0U9cQoy22eA_5URbj1s9XbTYa7ROkyFYYK2iz256vn2Vy-MY0cs7kfxO0mO6UwLB2zzvaAz7IFNh4e1a1sm7gsQ7v6eX9XqxcTvzHx0T5ws7EEt4XKDA/p.png",
+        img: kingdomLogo,
         link: "/kingdom",
         width: "22%",
         height: "60",

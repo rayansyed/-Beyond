@@ -1,13 +1,14 @@
 import React from 'react';
 import "./navitem.css"
 import { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 
 
 const Navitem = ({img, link, width, height, reference, desc}) => {
 
     const [isShown, setIsShown] = useState(false);
     function handleMouseEnter(e){
+        document.getElementById('navDesc').style.opacity="1"
         document.getElementById('navDesc').innerHTML = desc 
         document.getElementById('kh-icon').style.opacity="0"
         setIsShown(true)
@@ -15,7 +16,7 @@ const Navitem = ({img, link, width, height, reference, desc}) => {
     }
 
     function handleMouseLeave(e){
-        document.getElementById('navDesc').innerHTML = ""
+        document.getElementById('navDesc').style.opacity="0"
         document.getElementById('kh-icon').style.opacity="1"
         setIsShown(false)
     }
@@ -33,7 +34,7 @@ const Navitem = ({img, link, width, height, reference, desc}) => {
     }
 
     return (
-            <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} class="navItem" href={link}><img  shape-rendering="geometricPrecision" id={desc} className={'navIcon ' + changeIconColor()}  src={img} width={width}/></a>
+            <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} class="navItem" href={link}><img id={desc} className={'navIcon ' + changeIconColor()}  src={img} width={width}/></a>
             // <NavLink to="./header">item</NavLink>
     )
 }
