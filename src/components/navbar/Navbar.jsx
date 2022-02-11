@@ -26,13 +26,11 @@ function Navbar() {
     }
 
   return (
-      <div>
-        <div id='navList' className='nav-wrapper'>
-            <div>
+      <div className='navbar'>
+        <div className='nav-wrapper'>
                 {navIconInfo.map((item) =>(
-                    <Navitem key={item.id} img={item.img} link={item.link} width={item.width} height={item.height} reference={inputRef} desc={item.desc}/>
+                    <Navitem key={item.id} img={item.img} link={item.link} width={item.width} desc={item.desc}/>
                 ))}
-            </div>
         </div>
       </div>
 

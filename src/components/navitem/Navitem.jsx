@@ -4,8 +4,7 @@ import { useState, useEffect } from 'react';
 import {Link } from 'react-router-dom';
 
 
-const Navitem = ({img, link, width, height, reference, desc}) => {
-
+const Navitem = ({img, link, name, desc, width}) => {
     const [isShown, setIsShown] = useState(false);
     function handleMouseEnter(e){
         document.getElementById('navDesc').style.opacity="1"

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import { navIconInfo } from '../../navdata';
 import Navitem from '../navitem/Navitem';
 import "./mobileNavbar.css"
@@ -23,12 +23,21 @@ const MobileNavbar=({theme}) => {
         console.log('black')
         navtheme="light"
     }
+
  
   if(showMenu) {
       menu = 
       <div className={'mobile-nav-menu-'+navtheme}>
-          <a href='/'><h1 className={"mobile-nav-title-"+navtheme}>&Beyond</h1></a>
-            {navIconInfo.map((item) =>(
+          <a href='/'className='padding'><h1 className={"mobile-nav-title-"+navtheme}>&Beyond</h1></a>
+          <span className='x-icon'>
+            <FontAwesomeIcon
+                icon={faTimesCircle}
+                size='lg'
+                onClick={() => setShowMenu(false)}
+            />
+          </span>
+
+            {navIconInfo.map((item) =>( 
                 
                 <div className={'mobile-nav-icon-'+navtheme}>
                     <Navitem key={item.id} img={item.img} link={item.link} width="30%" />

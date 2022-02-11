@@ -1,12 +1,15 @@
   
   .nav-wrapper{
+      justify-content: center;      
       align-items: center;
-      justify-content: center;
-      display: flex;
       margin-left: 20%;
       margin-right: 20%;
+      width: 60%;
       /* width: 52%; */
   }
+
+
+
 
   
   ul {
@@ -64,6 +67,7 @@
     .nav-wrapper{
       margin-left: 10%;
       margin-right: 10%;
+      width: 80%;
     }
   }
 

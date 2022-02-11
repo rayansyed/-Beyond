@@ -1,9 +1,7 @@
 .footer-container{
     position: relative;
-    /* margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    margin-right: 25%; */
+    margin-top: 10%;
+    margin-bottom: 10%;
     overflow: hidden;
 }
 
@@ -17,10 +15,17 @@
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.5vw;
+    font-size: 0.6vw;
     line-height: 0.6vw;
     top: 1vw;
     right: 0px;
+}
+
+@media screen and (max-width:480px){
+    .footer-text{
+        font-size: 6px;
+
+    }
 }
 
 /* @media screen and (max-width:480px){

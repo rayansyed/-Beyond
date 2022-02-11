@@ -1,7 +1,7 @@
   .h{
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 22%;
+    margin-right: 22%;
   }
 
   a{
@@ -52,12 +52,13 @@
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     line-height: 0.6vw;
     overflow:hidden;
     padding-top: 1vw;
     transition: 0.3s;
     text-align: left;
+    white-space: pre-wrap;
   }
 
   

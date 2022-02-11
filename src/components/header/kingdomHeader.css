@@ -1,9 +1,10 @@
 .kh{
    position: relative;
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 22%;
+    margin-right: 22%;
     height: 6vw;
+    overflow:hidden
   }
 
   .kh-leftside{
@@ -37,8 +38,8 @@
     transition: 0.3s;
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
     width: 56%;
-    top: 1.4vw;
-    right: -0.3vw;
+    top: 0.9vw;
+    right: -1.5vw;
     /* transition-delay: 0.3s; */
 
   }
@@ -56,6 +57,8 @@
     transition: 0.3s;
     /* transition-delay: 0.3s; */
     text-align: left;
+    white-space: pre-wrap;
+
   }
 
   .kh-mobile{

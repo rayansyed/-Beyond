@@ -24,6 +24,8 @@
 
 
 @media screen and (max-width:480px) {
+
+
     .mobile-nav-title-dark{
         display: inline;
         font-family: 'Inter', sans-serif;    
@@ -32,10 +34,12 @@
         letter-spacing: -0.4vw;
         color: rgb(255, 255, 255);
         line-height:  1px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+        padding-top: 30px;
         
     }
 
+    
     .mobile-nav-title-light{
         display: inline;
         font-family: 'Inter', sans-serif;    
@@ -44,9 +48,24 @@
         letter-spacing: -0.4vw;
         color: rgb(0, 0, 0);
         line-height:  1px;
-        padding-bottom: 10px;
-        
+        padding-bottom: 15px;
+        padding-top: 30px;
     }
+
+    .x-icon{
+        position: absolute;
+        color:red;
+        top: 0px;
+        right: 0px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .padding{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
 
     .mobile-nav-menu-dark{
         display: flex;
@@ -97,6 +116,7 @@
         color: white;
         font-size: 8px;
         text-align: left;
+        white-space: pre-wrap;
     }
 
     .mobile-nav-desc-light{
@@ -106,6 +126,8 @@
         color: rgb(0, 0, 0);
         font-size: 8px;
         text-align: left;
+        white-space: pre-wrap;
+
     }
     
     .mobile-menu-mask{
