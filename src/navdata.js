@@ -4,8 +4,8 @@ import bulletLogo from './logos/Bullet.svg'
 import bridgesLogo from './logos/Bridges.svg'
 import kingdomLogo from './logos/Kingdom.svg'
 import lossLogo from './logos/LOSS.svg'
-import syntaxLogo from './logos/Syntax.svg'
-import tsushimaLogo from './logos/tsushima.svg'
+import aboutLogo from './logos/About.svg'
+import tsushimaLogo from './logos/Tsushi.svg'
 
 
 export const navIconInfo = [
@@ -71,7 +71,7 @@ export const navIconInfo = [
 
     {
         id: "syntax",
-        img: syntaxLogo,
+        img: aboutLogo,
         link: "#",
         width: "11%",
         height: "38",

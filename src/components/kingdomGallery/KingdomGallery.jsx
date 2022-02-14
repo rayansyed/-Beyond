@@ -43,7 +43,7 @@ import kingdom32 from '../../images/kingdom/kingdom32.jfif'
 function KingdomGallery() {
 
     return (
-        <div class="container k-container">
+        <div className="container k-container">
             <div className='flex-banner heading p-left p-right'>From towering ice mountains, to quiet flowing rivers, <strong>Kingdom&Beyond</strong> explores age-old nations and mythical worlds set in the video game Assassin’s Creed: Valhalla created by Ubisoft Montreal. Valhalla takes place in the Viking Age [793–1066 AD] and chronicles the journey of Eivor, an orphaned Norsemen coming to terms with their own prophetic destiny.</div>
             <div className='flex-item p-left p-right'>PHOTOGRAPHY<br></br>SHUJAAT SYED</div>
             <div className='flex-item'>WORDMARK/LETTERING<br></br>RILEY MCCLIMOND</div>

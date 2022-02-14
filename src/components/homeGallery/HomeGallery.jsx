@@ -7,11 +7,8 @@ import { homeImages } from '../../homeImages';
 
 import cyberpunkLogo from '../../logos/77.svg';
 import kamurochuLogo from '../../logos/kamurouchu.svg';
-import bulletLogo from '../../logos/Bullet.svg';
-import bridgesLogo from '../../logos/Bridges.svg';
 import kingdomLogo from '../../logos/Kingdom.svg';
-import lossLogo from '../../logos/LOSS.svg';
-import tsushimaLogo from '../../logos/tsushima.svg';
+import tsushimaLogo from '../../logos/Tsushi.svg';
 import video1 from '../../videos/redvsyellow_comp.mp4'
 import image1 from '../../images/home/valhalla.jpeg'
 import image2 from '../../images/home/yakuza1.jpeg'
@@ -29,7 +26,7 @@ function HomeGallery() {
     const desc5 = "🤖 TAKEMURA\n🎮 CYBERPUNK 77"
     
     return (
-        <div class="container">
+        <div className="container">
             <div className="flex-banner"><Video videoURL={video1} desc={desc1} icon={tsushimaLogo} imageWidth="100%"/></div>
             <div className="flex-item"><Image image={image1} desc={desc2} icon={kingdomLogo} imageWidth="100%"/></div>
             <div className="flex-item"><Image image={image2} desc={desc3} icon={kamurochuLogo} imageWidth="100%"/></div>

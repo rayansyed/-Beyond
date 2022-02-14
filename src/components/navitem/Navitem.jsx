@@ -33,8 +33,7 @@ const Navitem = ({img, link, name, desc, width}) => {
     }
 
     return (
-            <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} class="navItem" href={link}><img id={desc} className={'navIcon ' + changeIconColor()}  src={img} width={width}/></a>
-            // <NavLink to="./header">item</NavLink>
+            <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="navItem" href={link}><img id={desc} className={'navIcon ' + changeIconColor()}  src={img} width={width}/></a>
     )
 }
 

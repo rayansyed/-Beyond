@@ -9,7 +9,7 @@ const Video = ({videoURL, desc, icon}) => {
   return (
     <div className='video-wrapper'>
         {/* <ReactPlayer className='react-player' url={videoURL} playing={true} controls={false} muted={true} loop={true} width='100%' height='100%'/> */}
-        <video className='video' autoPlay muted loop class="video" src={VideoFile} width="100%" height="100%"></video>
+        <video className='video' autoPlay muted loop className="video" src={VideoFile} width="100%" height="100%"></video>
 
         {/* <video src={videoURL} width="100%" height="auto" preload='auto' autoPlay loop></video> */}
         <div className='video-texts'>
