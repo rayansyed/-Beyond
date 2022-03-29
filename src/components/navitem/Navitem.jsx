@@ -9,14 +9,14 @@ const Navitem = ({img, link, name, desc, width}) => {
     function handleMouseEnter(e){
         document.getElementById('navDesc').style.opacity="1"
         document.getElementById('navDesc').innerHTML = desc 
-        document.getElementById('kh-icon').style.opacity="0"
+        document.getElementById('ih-iconWrapper').style.opacity="0"
         setIsShown(true)
 
     }
 
     function handleMouseLeave(e){
         document.getElementById('navDesc').style.opacity="0"
-        document.getElementById('kh-icon').style.opacity="1"
+        document.getElementById('ih-iconWrapper').style.opacity="1"
         setIsShown(false)
     }
 
@@ -26,6 +26,9 @@ const Navitem = ({img, link, name, desc, width}) => {
         switch(window.location.pathname){
           case '/kingdom':
             return 'whiteNavIcon';
+
+          case '/tsushima':
+              return 'whiteNavIcon';
        
           default:
             return 'greyNavIcon';

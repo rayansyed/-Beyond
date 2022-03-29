@@ -9,6 +9,7 @@
   font-weight: normal;
   font-size: 0.5vw;
 
+
 }
 
   .k-container{
@@ -32,6 +33,7 @@
     box-sizing: border-box;
     justify-content: space-between;
     overflow: hidden;
+
   }
 
   .flex-banner{
@@ -76,6 +78,7 @@
   .p-right{
     padding-right: 15%;
   }
+  
 
 
 
@@ -118,8 +121,8 @@
   @media screen and (max-width:768px) and (min-width: 480px) {
 
     .container{
-      margin-left: 15%;
-      margin-right: 15%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .k-container{
@@ -129,19 +132,35 @@
     .heading{
       font-size: 14px;
     }
+
+    .p-left{
+      padding-left: 2%;
+    }
+    .p-right{
+      padding-right: 2%;
+    }
+  
   }
-/* 
-  @media screen and (max-width:1024px) {
-    .k-container{
-      margin-top: 94vh;
+
+  @media screen and (max-width:1439px) and (min-width: 768px) {
+    .container{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .p-left{
+      padding-left: 10%;
+    }
+    .p-right{
+      padding-right: 10%;
     }
   }
 
-  @media screen and (max-width:1440px) {
+  /* @media screen and (max-width:1440px) {
     .k-container{
       margin-top: 90vh;
     }
-  } */
+  }  */
 
 
   /* @media screen and (min-width: 160em) {

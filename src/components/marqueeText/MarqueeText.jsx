@@ -1,31 +1,31 @@
 import React from "react";
 import "./marquee.css";
 
-function MarqueeText() {
+const MarqueeText= ({game, time, studio, release, platform}) => {
   return (
     <div className="marquee">
       <div className="track">
         <div className="content">&nbsp;
-          <p className="m-item">GAME: ASSASSIN’S CREED VALHALLA</p>
-          <p className="m-item">TIME PLAYED: 90 HOURS</p>
-          <p className="m-item">STUDIO: UBISOFT MONTREAL</p>
-          <p className="m-item">RELEASE: NOVEMEBER 12 2020</p>
-          <p className="m-item">PLATFORM: XBOX SERIES X </p>
-          <p className="m-item">GAME: ASSASSIN’S CREED VALHALLA</p>
-          <p className="m-item">TIME PLAYED: 90 HOURS</p>
-          <p className="m-item">STUDIO: UBISOFT MONTREAL</p>
-          <p className="m-item">RELEASE: NOVEMEBER 12 2020</p>
-          <p className="m-item">PLATFORM: XBOX SERIES X </p>
-          <p className="m-item">GAME: ASSASSIN’S CREED VALHALLA</p>
-          <p className="m-item">TIME PLAYED: 90 HOURS</p>
-          <p className="m-item">STUDIO: UBISOFT MONTREAL</p>
-          <p className="m-item">RELEASE: NOVEMEBER 12 2020</p>
-          <p className="m-item">PLATFORM: XBOX SERIES X </p>
-          <p className="m-item">GAME: ASSASSIN’S CREED VALHALLA</p>
-          <p className="m-item">TIME PLAYED: 90 HOURS</p>
-          <p className="m-item">STUDIO: UBISOFT MONTREAL</p>
-          <p className="m-item">RELEASE: NOVEMEBER 12 2020</p>
-          <p className="m-item">PLATFORM: XBOX SERIES X </p>
+          <p className="m-item">{game}</p>
+          <p className="m-item">{time}</p>
+          <p className="m-item">{studio}</p>
+          <p className="m-item">{release}</p>
+          <p className="m-item">{platform}</p>
+          <p className="m-item">{game}</p>
+          <p className="m-item">{time}</p>
+          <p className="m-item">{studio}</p>
+          <p className="m-item">{release}</p>
+          <p className="m-item">{platform}</p>
+          <p className="m-item">{game}</p>
+          <p className="m-item">{time}</p>
+          <p className="m-item">{studio}</p>
+          <p className="m-item">{release}</p>
+          <p className="m-item">{platform}</p>
+          <p className="m-item">{game}</p>
+          <p className="m-item">{time}</p>
+          <p className="m-item">{studio}</p>
+          <p className="m-item">{release}</p>
+          <p className="m-item">{platform}</p>
         </div>
       </div>
     </div>

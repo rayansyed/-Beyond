@@ -1,16 +1,17 @@
 import React from 'react';
 import "./wallpaper.css"
-import Background from "../../videos/valhalla_cover.mp4"
 import MarqueeText from '../marqueeText/MarqueeText';
-function Wallpaper() {
+const Wallpaper = ({background, game, time, studio, release, platform}) => {
   return (
-  <div className='wallpaper'>
-        <video className='video-background' autoPlay muted loop src={Background} ></video>
-        <div className='m-container'>
-          <MarqueeText/>
-        </div>
-  </div>
-  );
+    <div className='wallpaper'>
+          <video className='video-background' autoPlay muted loop src={background} ></video>
+          <div className='m-container'>
+            <MarqueeText game={game} time={time} studio={studio} release={release} platform={platform}/>
+          </div>
+    </div>
+    );
 }
+
+
 
 export default Wallpaper;

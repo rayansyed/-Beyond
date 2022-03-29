@@ -1,0 +1,155 @@
+.ih{
+   position: relative;
+    display: flex;
+    margin-left: 22%;
+    margin-right: 22%;
+    height: 6vw;
+    overflow:hidden
+  }
+
+  .ih-leftside{
+      position: relative;
+      flex: 2;
+      /* text-align: left; */
+      /* padding-right: 10px; */
+      color: white;
+      text-align: right;
+      
+
+  }
+
+  .ih-rightside{
+      flex: 1;
+      text-align: right;
+  }
+
+  .ih-beyond{
+      font-family: 'Inter', sans-serif;    
+      font-weight: 600;
+      font-size:  4.7vw;
+      letter-spacing: -0.4vw;
+      color: white;
+      line-height:  1px;
+  }
+
+
+  #kh-icon{
+    position: absolute;
+    /* padding-top: 1.55vh; */
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 56%;
+    top: 0.9vw;
+    right: -1.5vw;
+    /* transition-delay: 0.3s; */
+
+  }
+
+
+  #ts-icon{
+    position: absolute;
+    /* padding-top: 1.55vh; */
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 35%;
+    top: 1.45vw;
+    right: -1.5vw;
+    /* transition-delay: 0.3s; */
+
+  }
+
+
+
+
+  #navDesc{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5vw;
+    line-height: 0.6vw;
+    overflow:hidden;
+    padding-top: 1vw;
+    transition: 0.3s;
+    /* transition-delay: 0.3s; */
+    text-align: left;
+    white-space: pre-wrap;
+
+  }
+
+  .ih-mobile{
+    display: none;
+  }
+  @media screen and (max-width:480px) {
+    .ih-leftside{
+      display: none;
+    }
+    .ih-rightside{
+      display: none;
+    }
+    ul{
+      display: none;
+    }
+
+    .ih{
+      margin: 10px;
+      height: 40vw;
+    }
+
+
+    .ih-mobile{
+      text-align: right;
+      display: inline;
+    }
+
+
+
+    #kh-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #ts-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .ih-beyond-mobile{
+      text-align: right;
+      display: inline;
+      font-family: 'Inter', sans-serif;    
+      font-weight: 600;
+      font-size:  50px;
+      letter-spacing: -1px;
+      color: white;
+      line-height:  1px;    }
+  }
+
+  @media screen and (max-width:768px) and (min-width: 480px) {
+    .ih{
+      margin-left: 16.5%;
+      margin-right: 16.5%;
+      height: 60vh;
+    }
+
+
+    .ih-beyond{
+      font-size:  6.7vw;
+    }
+
+    #kh-icon{
+      width: 56%;
+      top: 2.4vw;
+      right: -0.3vw;
+  
+    }
+
+    #ts-icon{
+      width: 44%;
+      top: 2.3vw;
+      right: -0.2vw;
+    }
+  }

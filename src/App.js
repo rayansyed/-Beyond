@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import HomePage from "./components/homePage/HomePage";
 import KingdomPage from "./components/kingdomPage/KingdomPage";
+import TsushimaPage from "./components/tsushimaPage/TsushimaPage";
 import "./App.css"
 
 function App() 
@@ -21,6 +22,9 @@ function App()
           </Route>
           <Route exact path="/kingdom">
               <KingdomPage/>
+          </Route>
+          <Route exact path="/tsushima">
+              <TsushimaPage/>
           </Route>
         </Switch>
       </div>

@@ -47,7 +47,7 @@ export const navIconInfo = [
 
         id: "tsushima",
         img: tsushimaLogo,
-        link: "#",
+        link: "/tsushima",
         width: "12%",
         height: "38",
         desc: "Reminiscent of Japanese woodblock paintings, Tsushima&Beyond explores the Kamakura period [1192-1333]. An Ancient time of the Shogunate samurai, a duty of code and honour, and unparalleled brutality, witness the moving beauty on display on the island of Tsushima. \n\n➥ GHOST OF TSUSHIMA by SUCKER PUNCH",

@@ -7,6 +7,9 @@ function Byline() {
     switch(window.location.pathname){
       case '/kingdom':
         return 'whiteText';
+
+      case '/tsushima':
+        return 'whiteText';
    
       default:
         return 'blackText';
