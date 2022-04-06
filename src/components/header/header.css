@@ -10,10 +10,9 @@
 
   .h-leftside{
     position: relative;
-      flex: 2;
-      /* text-align: left; */
-      padding-right: 10px;
-      overflow: hidden;
+    flex: 2;
+    padding-right: 10px;
+    overflow: hidden;
 
   }
 
@@ -26,7 +25,7 @@
     font-family: 'Inter', sans-serif;    
     font-weight: 600;
     font-size:  4.7vw;
-    letter-spacing: -0.4vw;
+    letter-spacing: -0.3vw;
     color: black;
     line-height:  1px;
   }
@@ -46,14 +45,15 @@
 
   .blackText{
       color: black;
+    
   }
 
   #navDesc{
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.7vw;
-    line-height: 0.6vw;
+    font-size: 0.55vw;
+    line-height: 0.7vw;
     overflow:hidden;
     padding-top: 1vw;
     transition: 0.3s;
@@ -73,9 +73,21 @@
     }
   }
 
-  @media screen and (max-width:768px) and (min-width: 480px) {
+  @media screen and (max-width:1023px) and (min-width: 480px) {
     .h{
       margin-left: 16.5%;
       margin-right: 16.5%;
     }
+
+    .h-beyond{
+      font-size:  8.4vw;
+      letter-spacing: -0.6vw;
+    }
+
+    #navDesc{
+      font-size: 1vw;
+      line-height: 1vw;
+
+    }
+
   }

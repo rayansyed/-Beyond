@@ -1,14 +1,30 @@
 .footer-container{
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10%;
     overflow: hidden;
 }
 
-.footer-logo{
-    filter: invert(89%) sepia(0%) saturate(4500%) hue-rotate(133deg) brightness(106%) contrast(94%);
 
+
+.grid-container{
+    position: absolute;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    bottom: 20%;
+    left: 0;
 }
+
+.footer-logo{
+    /* z-index: -1; */
+    /* position: absolute; */
+    filter: invert(89%) sepia(0%) saturate(4500%) hue-rotate(133deg) brightness(106%) contrast(94%);
+}
+
+.grid-item{
+    font-size: 0.7rem;
+    width: 96%;
+}
+
 .footer-text{
     text-align: right;
     position: absolute;
@@ -21,9 +37,9 @@
     right: 0px;
 }
 
-@media screen and (max-width:480px){
-    .footer-text{
-        font-size: 6px;
+@media screen and (max-width:1439px){
+    .grid-item{
+        font-size: 8px;
 
     }
 }

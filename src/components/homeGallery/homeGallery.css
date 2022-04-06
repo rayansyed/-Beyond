@@ -2,14 +2,12 @@
   display: flex;
   flex-wrap:wrap;
   box-sizing: border-box;
-  margin-left: 20.7%;
-  margin-right: 20.7%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.5vw;
-
-
+  font-size: 0.8rem;
 }
 
   .k-container{
@@ -19,17 +17,16 @@
   }
 
   .quote{
+    text-align: center;
     margin: auto;
     color: rgb(0, 0, 0);
-    font-size: 0.6vw;
-    padding: 3vw !important;
-
+    font-size: 0.9rem;
   }
   
   .flex-item {
     width: 50%;
     flex-grow: 0;
-    padding: 1vw;
+    padding: 0.3vw;
     box-sizing: border-box;
     justify-content: space-between;
     overflow: hidden;
@@ -40,7 +37,7 @@
     width: 100%;
     flex-grow: 0;
     box-sizing: border-box;
-    padding: 1vw;
+    padding: 0.3vw;
     justify-content: space-between;
     overflow: hidden;
   }
@@ -49,7 +46,7 @@
     width: 60%;
     flex-grow: 0;
     box-sizing: border-box;
-    padding: 1vw;
+    padding: 0.3vw;
     justify-content: space-between;
     overflow: hidden;
 
@@ -59,7 +56,7 @@
     width: 20%;
     flex-grow: 0;
     box-sizing: border-box;
-    padding: 1vw;
+    padding: 0.3vw;
     justify-content: space-between;
     overflow: hidden;
   }
@@ -67,9 +64,8 @@
   .heading{
     font-family: 'Inter', sans-serif;    
     font-weight: 400;
-    font-size: 0.8vw;
-
-    
+    font-size: 1.2rem;
+    letter-spacing: -1px;
   }
 
   .p-left{
@@ -78,94 +74,62 @@
   .p-right{
     padding-right: 15%;
   }
+
+  .p-bottom{
+    padding-bottom: 5%;
+  }
   
+  .credits{
+    color: rgb(153, 153, 153);
+  }
 
 
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:1023px) {
+
     .container{
       margin-left: 0%;
       margin-right: 0%;
-      font-size: 12px;
-    }
-
-    .heading{
       font-size: 14px;
     }
 
-    /* .k-container{
-      margin-top: 92vh;
-    } */
+    .heading{
+      font-size: 18px;
+    }
 
     .flex-banner{
-      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+
     }
 
     .flex-item{
       width: 100%;
-      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+
+
     }
 
     .flex-center{
       width: 100%;
-      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+
     }
 
     .flex-margin{
       display: none;
-      padding: 10px;
     }
 
-  }
-
-  @media screen and (max-width:768px) and (min-width: 480px) {
-
-    .container{
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-
-    .k-container{
-      font-size: 12px;
-    }
-
-    .heading{
+    .quote{
       font-size: 14px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
-    .p-left{
-      padding-left: 2%;
-    }
-    .p-right{
-      padding-right: 2%;
-    }
-  
   }
 
-  @media screen and (max-width:1439px) and (min-width: 768px) {
-    .container{
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-
-    .p-left{
-      padding-left: 10%;
-    }
-    .p-right{
-      padding-right: 10%;
-    }
-  }
-
-  /* @media screen and (max-width:1440px) {
-    .k-container{
-      margin-top: 90vh;
-    }
-  }  */
-
-
-  /* @media screen and (min-width: 160em) {
-
-        .k-container {
-            margin-top: 950px;
-        }
-    }  */

@@ -21,10 +21,10 @@
 }
 
 
-@media screen and (max-width:768px) and (min-width: 480px) {
+@media screen and (max-width:1023px) and (min-width: 480px) {
   .navIcon{
     padding-left: 0.55vw;
     padding-right: 0.55vw;
-  
+
   }
 }

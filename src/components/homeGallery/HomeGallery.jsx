@@ -11,14 +11,13 @@ import kingdomLogo from '../../logos/Kingdom.svg';
 import tsushimaLogo from '../../logos/Tsushi.svg';
 import video1 from '../../videos/redvsyellow_comp.mp4'
 import image1 from '../../images/home/valhalla.jpeg'
-import image2 from '../../images/home/yakuza1.jpeg'
+import image2 from '../../images/home/yakuza1.jpg'
 import image3 from '../../images/home/tsushima.jpeg'
 import image4 from '../../images/home/cyberpunk.png'
 
 
 
 function HomeGallery() {
-    const item1 = "https://www.dropbox.com/s/thd1311x9a2nk52/redvsyellow_comp.mp4?dl=0"
     const desc1 = "👺 JIN SAKAI\n🎮 GHOST OF TSUSHIMA"
     const desc2="🧔‍♂‍ EIVOR\n🎮 ASSASSIN'S CREED VALHALLA"
     const desc3="👨 YAGAMI 桐生 一馬\n🎮 JUDEMENT"
@@ -27,7 +26,7 @@ function HomeGallery() {
     
     return (
         <div className="container">
-            <div className="flex-banner"><Video videoURL={video1} desc={desc1} icon={tsushimaLogo} imageWidth="100%"/></div>
+            <div className="flex-banner"><Video videoPath={video1} desc={desc1} icon={tsushimaLogo} imageWidth="100%"/></div>
             <div className="flex-item"><Image image={image1} desc={desc2} icon={kingdomLogo} imageWidth="100%"/></div>
             <div className="flex-item"><Image image={image2} desc={desc3} icon={kamurochuLogo} imageWidth="100%"/></div>
             <div className='flex-margin'></div>
