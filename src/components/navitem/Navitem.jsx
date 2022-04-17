@@ -24,14 +24,11 @@ const Navitem = ({img, link, name, desc, width}) => {
 
     function changeIconColor() {
         switch(window.location.pathname){
-          case '/kingdom':
-            return 'whiteNavIcon';
-
-          case '/tsushima':
-              return 'whiteNavIcon';
+          case '/':
+            return 'greyNavIcon'
        
           default:
-            return 'greyNavIcon';
+            return 'whiteNavIcon';
         }
     }
 

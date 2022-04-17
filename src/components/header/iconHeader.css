@@ -4,7 +4,7 @@
     margin-left: 22%;
     margin-right: 22%;
     height: 6vw;
-    overflow:hidden
+    overflow:hidden;
   }
 
   .ih-leftside{
@@ -58,6 +58,36 @@
 
   }
 
+  #kam-icon{
+    position: absolute;
+    /* padding-top: 1.55vh; */
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 30%;
+    top: 1.2vw;
+    right: -0.7vw;
+  }
+
+  #sev-icon{
+    position: absolute;
+    /* padding-top: 1.55vh; */
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 45%;
+    top: 1.7vw;
+    right: -0.4vw;
+  }
+
+  #rdr-icon{
+    position: absolute;
+    /* padding-top: 1.55vh; */
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 22%;
+    top: 1.4vw;
+    right: -0.2vw;
+  }
+
 
 
 
@@ -79,7 +109,7 @@
   .ih-mobile{
     display: none;
   }
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:590px) {
     .ih-leftside{
       display: none;
     }
@@ -112,6 +142,27 @@
       margin-bottom: 20px;
     }
 
+    #kam-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #sev-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #rdr-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
     .ih-beyond-mobile{
       text-align: right;
       display: inline;
@@ -125,7 +176,7 @@
     }
   }
 
-  @media screen and (max-width:1023px) and (min-width: 480px) {
+  @media screen and (max-width:1023px) and (min-width: 590px) {
     .ih{
       margin-left: 16.5%;
       margin-right: 16.5%;
@@ -150,5 +201,21 @@
       width: 75%;
       top: 2.3vw;
       right: -0.2vw;
+    }
+    #kam-icon{
+      width: 59%;
+      top: 2.3vw;
+      right: -0.2vw;
+    }
+
+    #sev-icon{
+      width: 90%;
+      top: 3.1vw;
+      right: 0.5vw;
+    }
+    #rdr-icon{
+      width: 45%;
+      top: 2.1vw;
+      right: 0.5vw;
     }
   }

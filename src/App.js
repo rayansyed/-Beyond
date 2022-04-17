@@ -8,6 +8,9 @@ import HomePage from "./components/homePage/HomePage";
 import KingdomPage from "./components/kingdomPage/KingdomPage";
 import TsushimaPage from "./components/tsushimaPage/TsushimaPage";
 import "./App.css"
+import KamurochoPage from "./components/kamurochoPage/kamurochoPage";
+import CyberpunkPage from "./components/cyberpunkPage/CyberpunkPage";
+import RdrPage from "./components/rdrPage/RdrPage";
 
 function App() 
 {
@@ -25,6 +28,15 @@ function App()
           </Route>
           <Route exact path="/tsushima">
               <TsushimaPage/>
+          </Route>
+          <Route exact path="/kamurocho">
+              <KamurochoPage/>
+          </Route>
+          <Route exact path="/seventyseven">
+              <CyberpunkPage/>
+          </Route>
+          <Route exact path="/rdr">
+              <RdrPage/>
           </Route>
         </Switch>
       </div>

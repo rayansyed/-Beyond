@@ -3,8 +3,6 @@ import IconHeader from "../header/IconHeader";
 import Wallpaper from "../wallpaper/Wallpaper";
 import "./kingdomPage.css"
 import KingdomGallery from "../kingdomGallery/KingdomGallery";
-import Background from "../../videos/valhalla_cover.mp4"
-import kingdomIcon from '../../logos/Kingdom.svg'
 
 function KingdomPage() {
   const game = "GAME: ASSASSIN’S CREED VALHALLA"
@@ -17,8 +15,8 @@ function KingdomPage() {
 
   return (
     <div className="Kingdom">
-      <Wallpaper background={Background} game={game} time={time} studio={studio} release={release} platform={platform}/>
-      <IconHeader icon={kingdomIcon} desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>
+      <Wallpaper background="https://blankandbeyond.s3.amazonaws.com/videos/season1/kingdom/valhalla_cover.mp4" game={game} time={time} studio={studio} release={release} platform={platform}/>
+      <IconHeader icon="https://blankandbeyond.s3.amazonaws.com/logos/Kingdom.svg" desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>
       <KingdomGallery/> 
     </div>
   );

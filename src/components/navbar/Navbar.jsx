@@ -1,10 +1,4 @@
 import React from 'react';
-import cyberpunklogo from '../../logos/77.svg'
-import bridgesLogo from '../../logos/Bridges.svg'
-import kamLogo from '../../logos/kamurouchu.svg'
-import kingdomLogo from '../../logos/Kingdom.svg'
-import lossLogo from '../../logos/LOSS.svg'
-import bulletLogo from '../../logos/Bullet.svg'
 import Navitem from '../navitem/Navitem'
 import "./navbar.css"
 import { navIconInfo } from '../../navdata';

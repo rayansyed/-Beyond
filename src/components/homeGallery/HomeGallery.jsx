@@ -3,19 +3,6 @@ import "./homeGallery.css"
 import Image from '../image/Image';
 import Video from '../video/Video';
 import Footer from '../footer/Footer';
-import { homeImages } from '../../homeImages';
-
-import cyberpunkLogo from '../../logos/77.svg';
-import kamurochuLogo from '../../logos/kamurouchu.svg';
-import kingdomLogo from '../../logos/Kingdom.svg';
-import tsushimaLogo from '../../logos/Tsushi.svg';
-import video1 from '../../videos/redvsyellow_comp.mp4'
-import image1 from '../../images/home/valhalla.jpeg'
-import image2 from '../../images/home/yakuza1.jpg'
-import image3 from '../../images/home/tsushima.jpeg'
-import image4 from '../../images/home/cyberpunk.png'
-
-
 
 function HomeGallery() {
     const desc1 = "👺 JIN SAKAI\n🎮 GHOST OF TSUSHIMA"
@@ -26,19 +13,14 @@ function HomeGallery() {
     
     return (
         <div className="container">
-            <div className="flex-banner"><Video videoPath={video1} desc={desc1} icon={tsushimaLogo} imageWidth="100%"/></div>
-            <div className="flex-item"><Image image={image1} desc={desc2} icon={kingdomLogo} imageWidth="100%"/></div>
-            <div className="flex-item"><Image image={image2} desc={desc3} icon={kamurochuLogo} imageWidth="100%"/></div>
+            <div className="flex-banner"><Video videoPath="https://blankandbeyond.s3.amazonaws.com/videos/season1/tsushima/redvsyellow_comp.mp4" desc={desc1} icon="https://blankandbeyond.s3.amazonaws.com/logos/tsushima.svg" imageWidth="100%"/></div>
+            <div className="flex-item"><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/home/valhalla.jpeg" desc={desc2} icon="https://blankandbeyond.s3.amazonaws.com/logos/Kingdom.svg" imageWidth="100%"/></div>
+            <div className="flex-item"><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/home/yakuza1.jpg" desc={desc3} icon="https://blankandbeyond.s3.amazonaws.com/logos/kamurouchu.svg" imageWidth="100%"/></div>
             <div className='flex-margin'></div>
-            <div className="flex-center"><Image image={image3} desc={desc4} icon={tsushimaLogo} imageWidth="100%"/></div>
+            <div className="flex-center"><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/home/tsushima.jpeg" desc={desc4} icon="https://blankandbeyond.s3.amazonaws.com/logos/tsushima.svg" imageWidth="100%"/></div>
             <div className='flex-mragin'></div> 
-            <div className="flex-banner"><Image image={image4} desc={desc5} icon={cyberpunkLogo} imageWidth="100%"/></div> 
+            <div className="flex-banner"><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/home/cyberpunk.png" desc={desc5} icon="https://blankandbeyond.s3.amazonaws.com/logos/77.svg"imageWidth="100%"/></div> 
             <div className='flex-banner'><Footer/></div>
-
-
-            {/* {homeImages.map((item) =>(
-                <div className={item.type}><Image image={item.img} desc={item.desc} icon={item.icon} iconWidth={item.iconWidth}/></div>
-            ))} */}
         </div>
         );
 }

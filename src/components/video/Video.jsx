@@ -1,11 +1,7 @@
-import React, { useRef } from 'react';
-import ReactPlayer from 'react-player'
+import React from 'react';
 import "./video.css"
-import { useEffect } from "react";
-import VideoFile from "../../videos/redvsyellow_comp.mp4"
+
 const Video = ({videoPath, desc, icon}) => {
-
-
   return (
     <div className='video-wrapper'>
         {/* <ReactPlayer className='react-player' url={videoURL} playing={true} controls={false} muted={true} loop={true} width='100%' height='100%'/> */}

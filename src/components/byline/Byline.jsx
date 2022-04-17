@@ -5,14 +5,10 @@ function Byline() {
   
   function changeBylineColor() {
     switch(window.location.pathname){
-      case '/kingdom':
-        return 'whiteText';
-
-      case '/tsushima':
-        return 'whiteText';
-   
+      case '/':
+        return 'blackText'
       default:
-        return 'blackText';
+        return 'whiteText';
     }
 }
   return (

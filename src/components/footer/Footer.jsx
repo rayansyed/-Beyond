@@ -1,11 +1,10 @@
 import React from 'react';
-import Beyond from '../../logos/Beyond.png'
 import "./footer.css"
 
 function Footer() {
   return (
   <div className='footer-container'>
-    <img className='footer-logo' src={Beyond} width='100%'></img>
+    <img className='footer-logo' src="https://blankandbeyond.s3.amazonaws.com/logos/Beyond.png" width='100%'></img>
     <div className='grid-container'>
       <div class="grid-item">PRODUCT NAMES, LOGOS, AND BRANDS ARE PROPERTY OF THEIR RESPECTIVE OWNERS.</div>
       <div class="grid-item">COMPANY AND PRODUCT USED IN THIS WEBSITE ARE FOR IDENTIFICATION PURPOSES ONLY.</div>

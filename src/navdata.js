@@ -1,43 +1,32 @@
-import cyberpunkLogo from './logos/77.svg'
-import kamurochuLogo from './logos/kamurouchu.svg'
-import bulletLogo from './logos/Bullet.svg'
-import bridgesLogo from './logos/Bridges.svg'
-import kingdomLogo from './logos/Kingdom.svg'
-import lossLogo from './logos/LOSS.svg'
-import aboutLogo from './logos/About.svg'
-import tsushimaLogo from './logos/Tsushi.svg'
-
-
 export const navIconInfo = [
     {
         id: "kingdom",
-        img: kingdomLogo,
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/Kingdom.svg",
         link: "/kingdom",
         width: "20%",
         height: "60",
         desc: "From towering ice mountains to quiet flowing rivers, Kingdom&Beyond explores age-old nations and mythical worlds set in the video game ASSASSIN'S CREED: VALHALLA. Valhalla takes place in the Viking Age and chronicles the journey of Eivor, an orphaned Norsemen coming to terms with their own prophetic destiny.\n\n➥ ASSASSIN'S CREED: VALHALLA  by UBISOFT MONTREAL",
         
     },
-
     {
         id: "bullet",
-        img: bulletLogo,
-        link: "#",
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/Bullet.svg",
+        link: "/rdr",
         width: "7%",
         height: "100%",
         desc: "Lumbago. \n\n➥ RED DEAD REDEMPTION II by ROCKSTAR GAMES",
     },
     {
         id: "yakuza",
-        img: kamurochuLogo,
-        link: "#",
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/kamurouchu.svg",
+        link: "/kamurocho",
         width: "8%",
         height: "100%",
         desc: "神室町&Beyond explores Japanese architecture, streetlife, and cultural iconography in the fictional city of Kamurochu.\n\n➥ YAKUZA 6 by Ryu Ga Gotoku Studio \n➥ JUDGMENT by Ryu Ga Gotoku Studio",
     },
     {
         id: "loss",
-        img: lossLogo,
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/LOSS.svg",
         link: "#",
         width: "5%",
         height: "38",
@@ -46,7 +35,7 @@ export const navIconInfo = [
     {
 
         id: "tsushima",
-        img: tsushimaLogo,
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/tsushima.svg",
         link: "/tsushima",
         width: "12%",
         height: "38",
@@ -54,15 +43,15 @@ export const navIconInfo = [
     },
     {
         id: "cyberpunk",
-        img: cyberpunkLogo,
-        link: "#",
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/77.svg",
+        link: "/seventyseven",
         width: "16%",
         height: "38",
         desc: "Night City is an American megacity in the Free State of North California, controlled by corporations and unassailed by the laws of both country and state. It sees conflict from rampant gang wars and its ruling entities contending for dominance. \n\n➥ CYBERPUNK 77 by CD PROJEKT RED",
     },
     {
         id: "bridges",
-        img: bridgesLogo,
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/Bridges.svg",
         link: "#",
         width: "9%",
         height: "38",
@@ -70,13 +59,11 @@ export const navIconInfo = [
     },
 
     {
-        id: "syntax",
-        img: aboutLogo,
+        id: "about",
+        img: "https://blankandbeyond.s3.amazonaws.com/logos/About.svg",
         link: "#",
         width: "11%",
         height: "38",
         desc: "Taking place in an Icelandic-inspired rendition of the US, Death Stranding tasks gamers to to overcome mountainous terrain, time accelerating rain, and supernatural beings. \n\n➥ DEATH STRANDING by KOJIMA PRODUCTIONS",
     },
-
-
 ]

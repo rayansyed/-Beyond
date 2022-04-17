@@ -64,7 +64,7 @@
   
 
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:590px) {
     .h{
       display: none;
     }
@@ -73,7 +73,7 @@
     }
   }
 
-  @media screen and (max-width:1023px) and (min-width: 480px) {
+  @media screen and (max-width:1023px) and (min-width: 590px) {
     .h{
       margin-left: 16.5%;
       margin-right: 16.5%;

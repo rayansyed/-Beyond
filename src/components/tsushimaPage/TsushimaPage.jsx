@@ -1,9 +1,6 @@
 import IconHeader from "../header/IconHeader";
 import Wallpaper from "../wallpaper/Wallpaper";
-import tsushimaIcon from "../../logos/Tsushi.svg";
-import tsushimaWallpaper from '../../videos/tsushima/night.mp4';
 import "./tsushimaPage.css"
-import Marquee from "react-simple-marquee";
 import TsushimaGallery from "../tsushimaGallery/TsushimaGallery";
 function TsushimaPage() {
     const desktopStyle = "ts-icon"
@@ -15,8 +12,8 @@ function TsushimaPage() {
     const platform = "PLATFORM: PLAYSTATION 4 PRO"
     return(
         <div>
-            <Wallpaper background={tsushimaWallpaper} game={game} time={time} studio={studio} release={release} platform={platform}/>
-            <IconHeader icon={tsushimaIcon} desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>
+            <Wallpaper background="https://blankandbeyond.s3.amazonaws.com/videos/season1/tsushima/night.mp4" game={game} time={time} studio={studio} release={release} platform={platform}/>
+            <IconHeader icon="https://blankandbeyond.s3.amazonaws.com/logos/tsushima.svg" desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>
             <TsushimaGallery/>
         </div>
     );
