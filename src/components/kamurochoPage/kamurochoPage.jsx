@@ -1,4 +1,5 @@
 import IconHeader from "../header/IconHeader";
+import KamurochoGallery from "../kamurochoGallery/KamurochoGallery";
 import WallpaperImage from "../wallpaperImage/WallpaperImage";
 import "./kamurochoPage.css"
 function KamurochoPage() {
@@ -13,7 +14,7 @@ function KamurochoPage() {
         <div>
             <WallpaperImage background="https://blankandbeyond.s3.amazonaws.com/photos/season1/kamurocho/kam_background.png" game={game} time={time} studio={studio} release={release} platform={platform}/>
             <IconHeader icon="https://blankandbeyond.s3.amazonaws.com/logos/kamurouchu.svg" desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>
-          
+            <KamurochoGallery/>
         </div>
     );
 }

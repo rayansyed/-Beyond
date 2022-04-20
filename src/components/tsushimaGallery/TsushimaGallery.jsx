@@ -8,8 +8,8 @@ import "../homeGallery/homeGallery.css"
 function TsushimaGallery() {
   return (
     <div className='container k-container'>
-        <div className='flex-banner heading p-left p-right'>Reminiscent of Japanese woodblock paintings, <strong>Tsushima&Beyond</strong> explores the Kamakura period [1192 -1333] of Japan and covers the video game, Ghosts of Tsushima developed by Sucker Punch. An ancient time of the Shogunate samurai, a duty to the code of honour, and unparalleled brutality, witness the moving beauty on display on the island of Tsushima.</div>
-        <div className='flex-item p-left p-right p-bottom credits'>PHOTOGRAPHS and VIDEOS by SHUJAAT SYED</div>
+        <div className='flex-banner heading p-left p-right text-content'>Reminiscent of Japanese woodblock paintings, <strong>Tsushima&Beyond</strong> explores the Kamakura period [1192 -1333] of Japan and covers the video game, Ghosts of Tsushima developed by Sucker Punch. An ancient time of the Shogunate samurai, a duty to the code of honour, and unparalleled brutality, witness the moving beauty on display on the island of Tsushima.</div>
+        <div className='flex-item p-left p-right p-bottom credits text-content'>PHOTOGRAPHS and VIDEOS by SHUJAAT SYED</div>
         <div className="flex-banner"><Video videoPath="https://blankandbeyond.s3.amazonaws.com/videos/season1/tsushima/got_cover.mp4"/></div>
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/tsushima/got_grassfield.jpg" imageWidth='100%'></Image></div>
         <div className='flex-item'><Video videoPath="https://blankandbeyond.s3.amazonaws.com/videos/season1/tsushima/foxshrine.mov"></Video></div>
@@ -34,7 +34,6 @@ function TsushimaGallery() {
         <div className='flex-margin'></div>
         <div className='flex-center'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/tsushima/got_sleepinghorse.jpg" imageWidth='100%'></Image></div>
         <div className='flex-margin'></div>
-        
         <div className='flex-banner'><Footer/></div>
     </div>
   )
