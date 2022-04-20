@@ -28,7 +28,7 @@ const MobileNavbar=({theme}) => {
   if(showMenu) {
       menu = 
       <div className={'mobile-nav-menu-'+navtheme}>
-          <a href='/'className='padding'><h1 className={"mobile-nav-title-"+navtheme}>&Beyond</h1></a>
+          <a href='/'><h1 className={"mobile-nav-title-"+navtheme}>&Beyond</h1></a>
           <span className='x-icon'>
             <FontAwesomeIcon
                 icon={faTimesCircle}
@@ -40,7 +40,7 @@ const MobileNavbar=({theme}) => {
             {navIconInfo.map((item) =>( 
                 
                 <div className={'mobile-nav-icon-'+navtheme}>
-                    <Navitem key={item.id} img={item.img} link={item.link} width="30%" />
+                    <Navitem key={item.id} img={item.img} link={item.link} width="60%" />
                     <p className={'mobile-nav-desc-'+navtheme}>{item.desc}</p>
                 </div>
             ))}
