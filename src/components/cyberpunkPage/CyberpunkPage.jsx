@@ -1,3 +1,4 @@
+import CyberpunkGallery from "../cyberpunkGallery/CyberpunkGallery";
 import IconHeader from "../header/IconHeader";
 import Wallpaper from "../wallpaper/Wallpaper";
 import "./cyberpunkPage.css"
@@ -11,9 +12,9 @@ function CyberpunkPage() {
     const platform = "PLATFORM: PC"
     return(
         <div>
-            <Wallpaper background="https://blankandbeyond.s3.amazonaws.com/videos/season1/seventyseven/seventyseven_wallpaper.mp4" game={game} time={time} studio={studio} release={release} platform={platform}/>
+            <Wallpaper background="https://blankandbeyond.s3.amazonaws.com/videos/season1/seventyseven/Cyberpunk+2077+(C)+2020+by+CD+Projekt+RED+2021-01-06+17-39-19_Trim+(1).mp4" game={game} time={time} studio={studio} release={release} platform={platform}/>
             <IconHeader icon="https://blankandbeyond.s3.amazonaws.com/logos/77.svg" desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>
-          
+            <CyberpunkGallery/>
         </div>
     );
 }

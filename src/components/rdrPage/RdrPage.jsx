@@ -11,7 +11,7 @@ function RdrPage() {
     const platform = "PLATFORM: PC"
     return(
         <div>
-            <Wallpaper background="https://blankandbeyond.s3.amazonaws.com/videos/season1/rdr/rdr_wallpaper.mp4" game={game} time={time} studio={studio} release={release} platform={platform}/>
+            <Wallpaper background="https://blankandbeyond.s3.amazonaws.com/videos/season1/rdr/rdr_wallpaper_vintage.mp4" game={game} time={time} studio={studio} release={release} platform={platform}/>
             <IconHeader icon="https://blankandbeyond.s3.amazonaws.com/logos/Bullet.svg" desktopStyle={desktopStyle} mobileStyle={mobileStyle}/>     
             <RdrGallery/>   
         </div>

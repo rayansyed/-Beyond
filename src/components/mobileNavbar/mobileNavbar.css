@@ -38,15 +38,13 @@
 
     
     .mobile-nav-title-light{
-        display: inline;
         font-family: 'Inter', sans-serif;    
         font-weight: 600;
-        font-size:  8.7vw;
+        font-size:  5vw;
+        padding-bottom: 30px;
         letter-spacing: -0.4vw;
         color: rgb(0, 0, 0);
-        line-height:  1px;
-        padding-bottom: 30px;
-        padding-top: 30px;
+        line-height:  1px; 
     }
 
     .x-icon{
@@ -125,6 +123,8 @@
         font-size: 8px;
         text-align: left;
         white-space: pre-wrap;
+        padding-bottom: 50px;
+
 
     }
     
