@@ -3,9 +3,12 @@
     right: 0;
     bottom: 0;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100vh; 
     z-index:-50;
+    object-fit: contain;
+
 }
+
 
 .m-container{
     position: absolute;

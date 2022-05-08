@@ -40,7 +40,7 @@ const MobileNavbar=({theme}) => {
             {navIconInfo.map((item) =>( 
                 
                 <div className={'mobile-nav-icon-'+navtheme}>
-                    <Navitem key={item.id} img={item.img} link={item.link} width="60%" />
+                    <Navitem key={item.id} img={item.img} link={item.link} height={item.height} />
                     <p className={'mobile-nav-desc-'+navtheme}>{item.desc}</p>
                 </div>
             ))}

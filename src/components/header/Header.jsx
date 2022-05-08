@@ -5,10 +5,11 @@ function Header() {
     return (
         <div className='h'>
             <div className="h-leftside">
+                
                 <p className='blackText' id="navDesc"></p>
             </div>
             <div className="h-rightside">
-                <a href='/'><h1 className='h-beyond'>&Beyond</h1></a>
+                <a href='/'><img className='b-wordmark' src="https://blankandbeyond.s3.amazonaws.com/logos/%26Beyond_wordmark.svg"/></a>
             </div>
         </div>
     );

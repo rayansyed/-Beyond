@@ -38,7 +38,7 @@
     right: 0px;
 }
 
-@media screen and (max-width:1439px){
+@media screen and (max-width:1023px){
     .grid-item{
         font-size: 8px;
 

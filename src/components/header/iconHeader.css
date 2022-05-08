@@ -21,13 +21,19 @@
       text-align: right;
   }
 
-  .ih-beyond{
+  /* .ih-beyond{
       font-family: 'Inter', sans-serif;    
       font-weight: 600;
       font-size:  4.7vw;
       letter-spacing: -0.3vw;
       color: white;
       line-height:  1px;
+  } */
+
+  .ih-beyond-wordmark{
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    padding-top: 6.9%;
+    width: 100%;
   }
 
 
@@ -36,9 +42,9 @@
     /* padding-top: 1.55vh; */
     transition: 0.3s;
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
-    width: 56%;
-    top: 0.9vw;
-    right: -0.8vw;
+    width: 65%;
+    top: 0.3vw;
+    right: -0.2vw;
     /* transition-delay: 0.3s; */
 
   }
@@ -51,7 +57,7 @@
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
     width: 35%;
     top: 1.47vw;
-    right: -0.7vw;
+    right: 0vw;
     /* transition-delay: 0.3s; */
 
   }
@@ -61,9 +67,9 @@
     /* padding-top: 1.55vh; */
     transition: 0.3s;
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
-    width: 30%;
+    width: 27%;
     top: 1.2vw;
-    right: -0.7vw;
+    right: 0.2vw;
   }
 
   #sev-icon{
@@ -71,9 +77,9 @@
     /* padding-top: 1.55vh; */
     transition: 0.3s;
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
-    width: 45%;
-    top: 1.7vw;
-    right: -0.4vw;
+    width: 50%;
+    top: 1.4vw;
+    right: 0.3vw;
   }
 
   #rdr-icon{
@@ -83,7 +89,16 @@
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
     width: 22%;
     top: 1.4vw;
-    right: -0.2vw;
+    right: 0.2vw;
+  }
+
+  #loss-icon{
+    position: absolute;
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 16.5%;
+    top: 1.4vw;
+    right: 0.5vw;
   }
 
 
@@ -107,7 +122,7 @@
   .ih-mobile{
     display: none;
   }
-  @media screen and (max-width:590px) {
+  @media screen and (max-width:1023px) {
     .ih-leftside{
       display: none;
     }
@@ -115,22 +130,21 @@
       display: none;
     }
     .ih{
-      margin: 10px;
-      height: 50vh;
+      margin: 20px;
+      height: 100vh;
     }
 
     .ih-mobile{
       text-align: right;
       display: inline;
+      width: 100%;
     }
-
-
 
     #kh-icon-mobile{
       display: inline;
       filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
       width: 100%;
-      margin-bottom: 20px;
+
     }
 
     #ts-icon-mobile{
@@ -161,36 +175,52 @@
       margin-bottom: 20px;
     }
 
-    .ih-beyond-mobile{
+    #loss-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .ih-beyond-wordmark{
       text-align: right;
       display: inline;
-      font-family: 'Inter', sans-serif;    
+      width: 50%;
+      padding-top: 0px;
+      /* font-family: 'Inter', sans-serif;    
       font-weight: 600;
       font-size:  50px;
       letter-spacing: -3px;
       color: white;
-      line-height:  1px;    
+      line-height:  1px;     */
 
     }
   }
 
-  @media screen and (max-width:1023px) and (min-width: 590px) {
+  /* @media screen and (max-width:1023px) and (min-width: 590px) {
     .ih{
-      margin-left: 16.5%;
-      margin-right: 16.5%;
+      margin-left: 10%;
+      margin-right: 10%;
       height: 60vh;
+    }
+
+    .ih-leftside{
+      flex: 1;
     }
 
 
     .ih-beyond{
       font-size:  8.4vw;
       letter-spacing: -0.4vw;
+    }
 
+    .ih-beyond-wordmark{
+      width: 100%;
     }
 
     #kh-icon{
       width: 100%;
-      top: 2.4vw;
+      top: 2.7vw;
       right: -0.3vw;
   
     }
@@ -216,4 +246,4 @@
       top: 2.1vw;
       right: 0.5vw;
     }
-  }
+  } */

@@ -2,6 +2,12 @@
     display: flex;
     margin-left: 22%;
     margin-right: 22%;
+    height: 15%;
+    padding-bottom: 2%;
+  }
+  .b-wordmark{
+    padding-top: 6.9%;
+    width: 100%;
   }
 
   a{
@@ -13,6 +19,7 @@
     flex: 2;
     padding-right: 10px;
     overflow: hidden;
+    
 
   }
 
@@ -21,14 +28,14 @@
       text-align: right;
   }
 
-  .h-beyond{
+  /* .h-beyond{
     font-family: 'Inter', sans-serif;    
     font-weight: 600;
     font-size:  4.7vw;
     letter-spacing: -0.3vw;
     color: black;
     line-height:  1px;
-  }
+  } */
 
   .h-icon{
     position: absolute;
@@ -64,30 +71,18 @@
   
 
 
-  @media screen and (max-width:590px) {
+  @media screen and (max-width:1023px) {
     .h{
-      display: none;
+      margin-left: 0%;
+      margin-right: 0%;
+      display: inline;
     }
-    ul{
-      display: none;
+    .h-rightside{
+      text-align: center;
     }
-  }
-
-  @media screen and (max-width:1023px) and (min-width: 590px) {
-    .h{
-      margin-left: 16.5%;
-      margin-right: 16.5%;
+    .b-wordmark{
+      padding-top: 1%;
+      width: 95%;
+      padding-bottom: 3%;
     }
-
-    .h-beyond{
-      font-size:  8.4vw;
-      letter-spacing: -0.6vw;
-    }
-
-    #navDesc{
-      font-size: 1vw;
-      line-height: 1vw;
-
-    }
-
   }

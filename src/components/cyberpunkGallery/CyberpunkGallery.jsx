@@ -6,7 +6,7 @@ import "../homeGallery/homeGallery.css"
 function CyberpunkGallery() {
   return (
     <div className='container k-container'>
-        <div className='flex-banner heading p-left p-right text-content'>Taking place during the end of the 19th century, <strong>77&Beyond</strong> explores the fall of the Wild West [1899 -1907] in Western and Southern America and covers the video game, Red Dead Redemption II developed by Rockstar Games. Gangs and Outlaws are nearing their end as America moves towards progressing the country by establishing law and order.</div>
+        <div className='flex-banner heading p-left p-right text-content'><strong>77&Beyond</strong> explores Night City and covers the video game Cyberpunk 2077. Located near the Pacific Coast, Night City is a metropolis, filled with furturistic skyscrapers and neon lights, providing a beautiful atmosphere for its residents. Originally known as "The City of Dreams", it has seen its share of violence, and corruption over the years resulting in it being voted the "Worst Place to Live in America".</div>
         <div className='flex-item p-left p-right p-bottom credits text-content'>PHOTOGRAPHS by SHUJAAT & RAYAN SYED</div>
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_deskgirl.jpg" imageWidth='100%'></Image></div>
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_sunset.jpg" imageWidth='100%'></Image></div>
@@ -22,7 +22,7 @@ function CyberpunkGallery() {
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_redstair.jpg" imageWidth='100%'></Image></div>
         <div className='flex-item'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_afterlifeEnterance.jpg" imageWidth='100%'></Image></div>
         <div className='flex-item'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_afterlifeBar.jpg" imageWidth='100%'></Image></div>
-        <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_porsche.jpg" imageWidth='100%'></Image></div>
+        <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/photomode_29122020_160923.jpg" imageWidth='100%'></Image></div>
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_alley.jpg" imageWidth='100%'></Image></div>
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_silverhand.jpg" imageWidth='100%'></Image></div>
         <div className='flex-banner'><Image image="https://blankandbeyond.s3.amazonaws.com/photos/season1/77/cp_kojima.jpg" imageWidth='100%'></Image></div>

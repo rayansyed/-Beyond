@@ -12,8 +12,6 @@
     font-style: normal;
     font-size: 0.5vw;
     letter-spacing: -0.5px;
-
-
 }
 
 .image-texts{
@@ -26,18 +24,10 @@
     top: 0px;
     right: 0px;
     filter: invert(56%) sepia(0%) saturate(38%) hue-rotate(182deg) brightness(98%) contrast(95%);
-
-
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1023px) {
     .image-desc{
         font-size: 11px;
-    }
-}
-
-@media screen and (max-width:1023px) and (min-width: 480px) {
-    .image-desc{
-        font-size: 1.3vw;
     }
 }

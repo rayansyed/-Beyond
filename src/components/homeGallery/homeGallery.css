@@ -8,6 +8,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 0.8rem;
+
 }
 
   .k-container{
@@ -92,10 +93,11 @@
     .container{
       margin-left: 0%;
       margin-right: 0%;
-      font-size: 14px;
+      font-size: 13px;
     }
     .heading{
       font-size: 18px;
+      line-height: 120%;
     }
 
     .flex-banner{

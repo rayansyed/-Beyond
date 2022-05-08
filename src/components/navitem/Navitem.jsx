@@ -1,10 +1,10 @@
 import React from 'react';
 import "./navitem.css"
 import { useState, useEffect } from 'react';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
-const Navitem = ({img, link, name, desc, width}) => {
+const Navitem = ({img, link, name, desc, width, height}) => {
     const [isShown, setIsShown] = useState(false);
     function handleMouseEnter(e){
         document.getElementById('navDesc').style.opacity="1"
@@ -33,7 +33,7 @@ const Navitem = ({img, link, name, desc, width}) => {
     }
 
     return (
-            <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="navItem" href={link}><img id={desc} className={'navIcon ' + changeIconColor()}  src={img} width={width}/></a>
+            <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="navItem" href={link}><img id={desc} className={'navIcon ' + changeIconColor()}  src={img} width={width} height={height}/></a>
     )
 }
 

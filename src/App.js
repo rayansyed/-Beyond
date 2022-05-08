@@ -11,6 +11,7 @@ import "./App.css"
 import KamurochoPage from "./components/kamurochoPage/kamurochoPage";
 import CyberpunkPage from "./components/cyberpunkPage/CyberpunkPage";
 import RdrPage from "./components/rdrPage/RdrPage";
+import LossPage from "./components/lossPage/LossPage";
 
 function App() 
 {
@@ -37,6 +38,9 @@ function App()
           </Route>
           <Route exact path="/rdr">
               <RdrPage/>
+          </Route>
+          <Route exact path="/loss">
+              <LossPage/>
           </Route>
         </Switch>
       </div>

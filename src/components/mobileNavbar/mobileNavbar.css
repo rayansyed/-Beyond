@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:1023px) {
 
 
     .mobile-nav-title-dark{
@@ -56,10 +56,6 @@
         padding-top: 25px;
     }
 
-    .padding{
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
 
 
     .mobile-nav-menu-dark{
@@ -99,20 +95,20 @@
         padding-bottom: 20px;
     } */
 
-    .mobile-nav-icon-light{
+    /* .mobile-nav-icon-light{
         align-items: center;
         padding-bottom: 20px;
-    }
+    } */
 
     .mobile-nav-desc-dark{
         font-family: 'Roboto Mono', monospace;
         font-style: normal;
         font-weight: normal;
         color: white;
-        font-size: 8px;
+        font-size: 11px;
         text-align: left;
         white-space: pre-wrap;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     .mobile-nav-desc-light{
@@ -120,10 +116,10 @@
         font-style: normal;
         font-weight: normal;
         color: rgb(0, 0, 0);
-        font-size: 8px;
+        font-size: 11px;
         text-align: left;
         white-space: pre-wrap;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
 
 
     }
@@ -142,12 +138,16 @@
     .mobile-nav-icon-dark{
         display: inline;
         color: white;
-        padding-right: 30px;
+        padding-right: 20px;
+        position: relative;
+        top: 10px;
     }
 
     .mobile-nav-icon-light{
         display: inline;
         color: rgb(0, 0, 0);
-        padding-right: 30px;
+        padding-right: 20px;
+        position: relative;
+        top: 10px;
     }
 }

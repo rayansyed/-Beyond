@@ -10,11 +10,11 @@ const IconHeader=({icon, desktopStyle, mobileStyle}) => {
                 </div>
             </div>
             <div className="ih-rightside">
-                <a href='/'><h1 className='ih-beyond'>&Beyond</h1></a>
+                <a href='/'><img className='ih-beyond-wordmark' src="https://blankandbeyond.s3.amazonaws.com/logos/%26Beyond_wordmark.svg"/></a>
             </div>
             <div className='ih-mobile'>
                 <img id={mobileStyle}  src={icon}></img>
-                <a href='/'><h1 className='ih-beyond-mobile'>&Beyond</h1></a>
+                <a href='/'><img className='ih-beyond-wordmark' src="https://blankandbeyond.s3.amazonaws.com/logos/%26Beyond_wordmark.svg"/></a>
             </div>
         </div>
     );

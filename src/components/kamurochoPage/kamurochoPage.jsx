@@ -5,10 +5,10 @@ import "./kamurochoPage.css"
 function KamurochoPage() {
     const desktopStyle = "kam-icon"
     const mobileStyle = "kam-icon-mobile"
-    const game = "GAME: GHOST OF TSUSHIMA"
-    const time = "TIME PLAYED: 68 HOURS"
-    const studio = "STUDIO: SUCKER PUNCH PRODUCTIONS"
-    const release = "RELEASE: JULY 17TH 2020"
+    const game = "GAME: YAKUZA 6 & JUDGEMENT"
+    const time = "TIME PLAYED: 50 HOURS"
+    const studio = "STUDIO: SEGA, RYA GA GOTOKU STUDIO"
+    const release = "RELEASE: DECEMBER 8TH 2016 & DECEMBER 13TH 2018"
     const platform = "PLATFORM: PLAYSTATION 4 PRO"
     return(
         <div>

@@ -1,8 +1,9 @@
 .navIcon{
   vertical-align: middle;
-  padding-left: 0.4vw;
-  padding-right: 0.4vw;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
   transition: 0.3s;
+  
 }
 
 
@@ -21,10 +22,10 @@
 }
 
 
-@media screen and (max-width:1023px) and (min-width: 480px) {
+/* @media screen and (max-width:1023px) {
   .navIcon{
     padding-left: 0.55vw;
     padding-right: 0.55vw;
 
   }
-}
+} */
