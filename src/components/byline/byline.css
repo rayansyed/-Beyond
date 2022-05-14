@@ -2,15 +2,15 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
 
 }
 
 .by-title{
     font-family: 'Inter', sans-serif;  
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
     letter-spacing: -1px;
     line-height: 1px;
 

@@ -21,14 +21,6 @@
       text-align: right;
   }
 
-  /* .ih-beyond{
-      font-family: 'Inter', sans-serif;    
-      font-weight: 600;
-      font-size:  4.7vw;
-      letter-spacing: -0.3vw;
-      color: white;
-      line-height:  1px;
-  } */
 
   .ih-beyond-wordmark{
     filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
@@ -99,6 +91,15 @@
     width: 16.5%;
     top: 1.4vw;
     right: 0.5vw;
+  }
+
+  #bridges-icon{
+    position: absolute;
+    transition: 0.3s;
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+    width: 26.5%;
+    top: 1.4vw;
+    right: 0.1vw;
   }
 
 
@@ -182,68 +183,19 @@
       margin-bottom: 20px;
     }
 
+    #bridges-icon-mobile{
+      display: inline;
+      filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(185deg) brightness(124%) contrast(117%);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+
+
     .ih-beyond-wordmark{
       text-align: right;
       display: inline;
       width: 50%;
       padding-top: 0px;
-      /* font-family: 'Inter', sans-serif;    
-      font-weight: 600;
-      font-size:  50px;
-      letter-spacing: -3px;
-      color: white;
-      line-height:  1px;     */
-
     }
   }
-
-  /* @media screen and (max-width:1023px) and (min-width: 590px) {
-    .ih{
-      margin-left: 10%;
-      margin-right: 10%;
-      height: 60vh;
-    }
-
-    .ih-leftside{
-      flex: 1;
-    }
-
-
-    .ih-beyond{
-      font-size:  8.4vw;
-      letter-spacing: -0.4vw;
-    }
-
-    .ih-beyond-wordmark{
-      width: 100%;
-    }
-
-    #kh-icon{
-      width: 100%;
-      top: 2.7vw;
-      right: -0.3vw;
-  
-    }
-
-    #ts-icon{
-      width: 75%;
-      top: 2.3vw;
-      right: -0.2vw;
-    }
-    #kam-icon{
-      width: 59%;
-      top: 2.3vw;
-      right: -0.2vw;
-    }
-
-    #sev-icon{
-      width: 90%;
-      top: 3.1vw;
-      right: 0.5vw;
-    }
-    #rdr-icon{
-      width: 45%;
-      top: 2.1vw;
-      right: 0.5vw;
-    }
-  } */

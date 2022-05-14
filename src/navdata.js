@@ -52,7 +52,7 @@ export const navIconInfo = [
     {
         id: "bridges",
         img: "https://blankandbeyond.s3.amazonaws.com/logos/Bridges.svg",
-        link: "#",
+        link: "/bridges",
         width: "6.4%",
         height: "38px",
         desc: "Taking place in an Icelandic-inspired rendition of the US, Death Stranding tasks gamers to to overcome mountainous terrain, time accelerating rain, and supernatural beings. \n\n➥ DEATH STRANDING by KOJIMA PRODUCTIONS",

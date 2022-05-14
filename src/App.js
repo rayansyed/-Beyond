@@ -12,6 +12,7 @@ import KamurochoPage from "./components/kamurochoPage/kamurochoPage";
 import CyberpunkPage from "./components/cyberpunkPage/CyberpunkPage";
 import RdrPage from "./components/rdrPage/RdrPage";
 import LossPage from "./components/lossPage/LossPage";
+import BridgesPage from "./components/bridgesPage/BridgesPage";
 
 function App() 
 {
@@ -41,6 +42,9 @@ function App()
           </Route>
           <Route exact path="/loss">
               <LossPage/>
+          </Route>
+          <Route exact path="/bridges">
+              <BridgesPage/>
           </Route>
         </Switch>
       </div>
